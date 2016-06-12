@@ -1,0 +1,13 @@
+C:\Users\Basia\Documents\c# eti\Organiser\bin\Debug\Organiser.exe.config
+C:\Users\Basia\Documents\c# eti\Organiser\bin\Debug\Organiser.exe
+C:\Users\Basia\Documents\c# eti\Organiser\bin\Debug\Organiser.pdb
+C:\Users\Basia\Documents\c# eti\Organiser\obj\Debug\MainWindow.baml
+C:\Users\Basia\Documents\c# eti\Organiser\obj\Debug\MainWindow.g.cs
+C:\Users\Basia\Documents\c# eti\Organiser\obj\Debug\App.g.cs
+C:\Users\Basia\Documents\c# eti\Organiser\obj\Debug\Organiser_MarkupCompile.cache
+C:\Users\Basia\Documents\c# eti\Organiser\obj\Debug\Organiser.g.resources
+C:\Users\Basia\Documents\c# eti\Organiser\obj\Debug\Organiser.Properties.Resources.resources
+C:\Users\Basia\Documents\c# eti\Organiser\obj\Debug\Organiser.csproj.GenerateResource.Cache
+C:\Users\Basia\Documents\c# eti\Organiser\obj\Debug\Organiser.exe
+C:\Users\Basia\Documents\c# eti\Organiser\obj\Debug\Organiser.pdb
+C:\Users\Basia\Documents\c# eti\Organiser\obj\Debug\Organiser.csprojResolveAssemblyReference.cache

@@ -1,0 +1,31 @@
+﻿<Window x:Class="Organiser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="547" Width="646">
+    <Grid Margin="0,0,-8,-49" >
+        <Calendar x:Name="MainCalendar" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" Width="220" Height="208" RenderTransformOrigin="0.597,0.496" SelectedDatesChanged="MainCalendar_SelectedDatesChanged"  />
+        <Button x:Name="AddTask" Content="Add task" HorizontalAlignment="Left" Margin="144,436,0,0" VerticalAlignment="Top" Width="76" Click="AddTask_Click" />
+        <Grid x:Name="TaskGrid" HorizontalAlignment="Left" Height="181" Margin="30,250,0,0" VerticalAlignment="Top" Width="190" >
+            <TextBox x:Name="tittleTextBox" HorizontalAlignment="Left" Height="23" Margin="79,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
+            <Label x:Name="tittleLabel" Content="Tittle" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Height="23"/>
+            <Label Content="Desciption" HorizontalAlignment="Left" Margin="0,38,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="descTextBox" HorizontalAlignment="Left" Height="57" Margin="79,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
+            <Label x:Name="startLabel" Content="Start" HorizontalAlignment="Left" Margin="0,111,0,0" VerticalAlignment="Top" Height="23" Width="78"/>
+            <Label x:Name="endLabel" Content="End" HorizontalAlignment="Left" Margin="0,139,0,0" VerticalAlignment="Top" Height="23" Width="78"/>
+            <ComboBox x:Name="hoursBeginComboBox" HorizontalAlignment="Left" Margin="78,111,0,0" VerticalAlignment="Top" Width="111" Height="23">
+            </ComboBox>
+            <ComboBox x:Name="hoursEndComboBox" HorizontalAlignment="Left" Margin="78,139,0,0" VerticalAlignment="Top" Width="111" Height="23"/>
+
+
+        </Grid>
+        <TextBlock x:Name="tasksTextBlock" HorizontalAlignment="Left" Margin="299,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="156" Width="314"/>
+        <ListBox x:Name="guestsListBox" HorizontalAlignment="Left" Height="180" Margin="316,276,0,0" VerticalAlignment="Top" Width="297" SelectionChanged="ListBox_SelectionChanged" ItemsSource="{Binding Guests}"/>
+        <Button x:Name="AddPartyDay" Content="Set as Party Day" HorizontalAlignment="Left" Margin="30,208,0,0" VerticalAlignment="Top" Width="111" Click="AddPartyDay_Click"/>
+        <Label x:Name="guestsLabel" Content="Guests" HorizontalAlignment="Left" Margin="316,250,0,0" VerticalAlignment="Top" Width="77"/>
+        <Label x:Name="addGuestsLabel" Content="Name:" HorizontalAlignment="Left" Margin="316,208,0,0" VerticalAlignment="Top" Width="77"/>
+        <TextBox x:Name="addGuestsTextBox" HorizontalAlignment="Left" Height="23" Margin="398,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="addGuestButton" Content="Add guest" HorizontalAlignment="Left" Margin="538,213,0,0" VerticalAlignment="Top" Width="75" Click="addGuestButton_Click"/>
+    </Grid>
+
+
+</Window>
