@@ -1,0 +1,5 @@
+W kalendarzu zaznaczyć dzień.
+Aby dodać zadanie do zaznaczonego dnia, należy wypełnić wszystkie pola tytuł, opis, godziny.
+Po wybraniu dnia wyświetla się lista zadań z danego dnia
+Zaznaczone dzień może być "party day". Po naciśnieciu przycisku party day pojawiają się pola dodatkowe, gdzie można dodać imię
+gościa, wyświetla się lista gości
